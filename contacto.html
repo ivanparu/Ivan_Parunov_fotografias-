@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Parunov Fotografias</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="./img/logo.jfif" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="banner">
+        <a href="index.html"> <img src="./img/logo.jfif" alt="" class="banner__logo"></a>
+        <nav>
+            <ul class="banner__navbar">
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="bodas.html">Bodas</a></li>
+                <li> <a href="pagos.html">Pagos</a></li>
+                <li> <a href="acerca_de_mi.html">Acerca de mi</a></li>
+                <li> <a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <form action="">
+            <fieldset class="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre aqui" required>
+                <br>
+                <label for="correo_">Correo electronico</label>
+                <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo aqui" required>
+                <br>
+                <label for="celular">Celular</label>
+                <input type="text" name="celular" id="celualr" placeholder="Ingresa tu número aqui" required>
+                <br>
+                <label for="fecha">Fecha del evento</label>
+                <input type="date" name="fecha" id="fecha" required>
+                <br>
+                <label for="asunto">Asunto(opcional)</label>
+                <br>
+                <textarea name="asunto" id="asunto" cols="30" rows="10" maxlength="190"
+                    placeholder="Escriba que clase de fiesta es"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>Email:ivanparu04@gmail.com</p>
+        <br>
+        <p>Numero: 1158877453</p>
+    </footer>
+</body>
+</html>
